@@ -1,49 +1,47 @@
-# Introduction to SQL and PostgreSQL
+# Introduction
 
-This section provides a high-level introduction to **SQL**, **databases**, and **PostgreSQL**.
-It builds the mental foundation required before writing queries.
+This section is about understanding the basics before starting SQL queries.
+Before writing any code, it is important to know what SQL is and why we use PostgreSQL.
 
-Understanding these concepts clearly will make all future SQL topics easier.
-
----
-
-## 📌 What is SQL?
-
-**SQL (Structured Query Language)** is a standard language used to:
-- Store data
-- Retrieve data
-- Modify data
-- Manage databases
-
-SQL is used in almost every data-driven application, including:
-- Web applications
-- Business dashboards
-- Data analysis
-- Backend systems
+This part is only for concepts. Practical SQL will start from the next section.
 
 ---
 
-## 🗄️ What is a Database?
+## What is SQL?
 
-A **database** is an organized collection of data that allows:
-- Efficient storage
-- Fast retrieval
-- Secure access
-- Data consistency
+SQL stands for Structured Query Language.
 
-Instead of storing data in files or spreadsheets, databases provide structure and reliability.
+It is used to:
+- store data
+- get data from database
+- update data
+- delete data
+
+SQL is used in many applications like websites, mobile apps, reports, and data analysis.
 
 ---
 
-## 🧠 What is an RDBMS?
+## What is a Database?
 
-**RDBMS (Relational Database Management System)** is a system that:
-- Stores data in **tables**
-- Uses **rows and columns**
-- Enforces relationships between tables
-- Ensures data integrity using constraints
+A database is a place where data is stored in an organized way.
 
-Examples of RDBMS:
+Instead of using Excel or text files, databases are used because:
+- they are faster
+- they are more secure
+- they handle large data easily
+
+---
+
+## What is RDBMS?
+
+RDBMS means Relational Database Management System.
+
+In RDBMS:
+- data is stored in tables
+- tables have rows and columns
+- tables can be connected with each other
+
+Some popular RDBMS are:
 - PostgreSQL
 - MySQL
 - Oracle
@@ -51,56 +49,37 @@ Examples of RDBMS:
 
 ---
 
-## 🐘 Why PostgreSQL?
+## Why PostgreSQL?
 
-**PostgreSQL** is a powerful, open-source RDBMS known for:
-- High reliability
-- Strong data integrity
-- Advanced SQL features
-- Industry adoption
+PostgreSQL is an open-source database.
 
-It is widely used in:
-- Startups
-- Enterprise systems
-- Data engineering
-- Analytics platforms
+I am using PostgreSQL because:
+- it is free
+- it is powerful
+- it follows SQL standards
+- it is used in real companies
+
+It is good for beginners and also for advanced users.
 
 ---
 
-## 📊 Database Terminology (High-Level)
+## Basic Terms
 
-| Term | Meaning |
-|----|--------|
-| Database | Container for data |
-| Table | Structure to store data |
-| Row | Single record |
-| Column | Attribute of data |
-| Schema | Logical grouping of tables |
+- **Database**: a collection of tables  
+- **Table**: stores data in rows and columns  
+- **Row**: one record  
+- **Column**: one field of data  
+- **Schema**: a group of tables  
 
-These concepts will be explored in detail in the next sections.
+These terms will become clear when we start writing SQL.
 
 ---
 
-## 🎯 Purpose of This Repository
+## What to do next?
 
-This repository is designed to:
-- Learn SQL step by step using PostgreSQL
-- Practice writing clean and logical queries
-- Build a strong foundation for interviews and real projects
-- Serve as a long-term revision guide
+After this section:
+1. Go to `01_database_basics`
+2. Learn how to create database and tables
+3. Start practicing SQL commands
 
----
-
-## 🧭 How to Continue
-
-After understanding these concepts:
-1. Move to `01_database_basics`
-2. Learn how databases and tables are created
-3. Start writing your first SQL commands
-
----
-
-## 📝 Note
-
-This section focuses on **conceptual understanding**.
-Hands-on SQL practice begins from the next section.
+This section is only for understanding the basics.
